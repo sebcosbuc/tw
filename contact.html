@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="media/logo2.jpeg">
+    <title>Contact</title>
+</head>
+<body style="line-height: 0;">
+    <header class="navbar">
+        <div class="logo">
+            <img src="media/logo1.svg">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produse.html">Produse</a></li>
+                <li><a href="industrii.html">Industrii</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="form-container">
+            <form action="submit-form.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="nume">Nume</label>
+                    <input type="text" id="nume" name="nume" placeholder="Introdu numele" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenume">Prenume</label>
+                    <input type="text" id="prenume" name="prenume" placeholder="Introdu prenumele" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introdu adresa de email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefon">Telefon</label>
+                    <input type="tel" id="telefon" name="telefon" placeholder="Introdu numărul de telefon" required>
+                </div>
+                <div class="form-group">
+                    <label for="mesaj">Mesaj</label>
+                    <textarea id="mesaj" name="mesaj" placeholder="Scrie mesajul tău aici" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="fisier">Adăugare fișier</label>
+                    <input type="file" id="fisier" name="fisier" accept=".jpg,.jpeg,.png,.pdf">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Trimite</button>
+                </div>
+            </form>
+        </div>
+    <div>
+        <img src="media/background1.png">
+    </div>
+    <div class="address">
+        <p>Adresă:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108914.3639995712!2d-71.25863143020672!3d42.408200785819254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39dfdd2aafac7%3A0x1d699f65782fc4b0!2sBoston%20Dynamics!5e0!3m2!1sen!2sro!4v1733585520727!5m2!1sen!2sro" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Boston Dynamics pe social media:</p>
+        <a href="https://www.facebook.com/BostonDynamicsOfficial" target="_blank"><img src="media/facebook.png"></a>
+        <a href="https://www.instagram.com/bostondynamicsofficial/?hl=en" target="_blank"><img src="media/instagram.png"></a>
+        <a href="https://www.tiktok.com/@bostondynamicsofficial" target="_blank"><img src="media/tiktok.png"></a>
+        <a href="https://www.youtube.com/user/BostonDynamics" target="_blank"><img src="media/youtube.png"></a>
+        <a href="https://x.com/BostonDynamics" target="_blank"><img src="media/twitter.png"></a>
+        <a href="https://www.linkedin.com/company/boston-dynamics/" target="_blank"><img src="media/linkedin.png"></a>
+    </div>
+</body>
